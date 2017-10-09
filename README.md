@@ -1,6 +1,6 @@
 # Exploratory-Data-Analysis
 
-Titanic dataset instruction from DataCamp
+Titanic dataset instructions from DataCamp
 
 1 - Have a look at the str() of the titanic dataset, which has been loaded into your workspace. Looks like the data is pretty tidy!
 
