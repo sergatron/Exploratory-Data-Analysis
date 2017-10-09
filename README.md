@@ -24,17 +24,15 @@ Make sure that Sex is mapped onto color instead of fill to correctly color the s
 Dataset Overview
 
 str(titanic)
+
 'data.frame':	714 obs. of  4 variables:
+
  $ Survived: int  0 1 1 1 0 0 0 1 1 1 ...
+ 
  $ Pclass  : int  3 1 3 1 3 1 3 3 2 3 ...
+ 
  $ Sex     : Factor w/ 2 levels "female","male": 2 1 1 1 2 2 2 1 1 1 ...
+ 
  $ Age     : num  22 38 26 35 35 54 2 27 14 4 ...
  
- head(titanic)
-  Survived Pclass    Sex Age
-1        0      3   male  22
-2        1      1 female  38
-3        1      3 female  26
-4        1      1 female  35
-5        0      3   male  35
-6        0      1   male  54
+
