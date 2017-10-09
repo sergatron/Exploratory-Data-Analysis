@@ -1,6 +1,7 @@
 # Exploratory-Data-Analysis
 
 
+
 Titanic dataset instructions from DataCamp
 
 1 - Have a look at the str() of the titanic dataset, which has been loaded into your workspace. Looks like the data is pretty tidy!
@@ -21,7 +22,11 @@ Change geom_bar() to geom_point() and set its attributes size = 3, alpha = 0.5 a
 
 Make sure that Sex is mapped onto color instead of fill to correctly color the scatter plots. (This was discussed in detail here and here).
 
+
+
+
 Dataset Overview
+
 
 str(titanic)
 
