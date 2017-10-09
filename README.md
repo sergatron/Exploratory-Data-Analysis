@@ -1,18 +1,5 @@
 # Exploratory-Data-Analysis
 
-str(titanic)
-'data.frame':	714 obs. of  4 variables:
- $ Survived: int  0 1 1 1 0 0 0 1 1 1 ...
- $ Pclass  : int  3 1 3 1 3 1 3 3 2 3 ...
- $ Sex     : Factor w/ 2 levels "female","male": 2 1 1 1 2 2 2 1 1 1 ...
- $ Age     : num  22 38 26 35 35 54 2 27 14 4 ...
- 
- str(titanic)
-'data.frame':	714 obs. of  4 variables:
- $ Survived: int  0 1 1 1 0 0 0 1 1 1 ...
- $ Pclass  : int  3 1 3 1 3 1 3 3 2 3 ...
- $ Sex     : Factor w/ 2 levels "female","male": 2 1 1 1 2 2 2 1 1 1 ...
- $ Age     : num  22 38 26 35 35 54 2 27 14 4 ...
 
 Titanic dataset instructions from DataCamp
 
@@ -33,3 +20,21 @@ Take plot 3 and add a mapping of Age onto the y aesthetic.
 Change geom_bar() to geom_point() and set its attributes size = 3, alpha = 0.5 and position = posn.jd.
 
 Make sure that Sex is mapped onto color instead of fill to correctly color the scatter plots. (This was discussed in detail here and here).
+
+Dataset Overview
+
+str(titanic)
+'data.frame':	714 obs. of  4 variables:
+ $ Survived: int  0 1 1 1 0 0 0 1 1 1 ...
+ $ Pclass  : int  3 1 3 1 3 1 3 3 2 3 ...
+ $ Sex     : Factor w/ 2 levels "female","male": 2 1 1 1 2 2 2 1 1 1 ...
+ $ Age     : num  22 38 26 35 35 54 2 27 14 4 ...
+ 
+ head(titanic)
+  Survived Pclass    Sex Age
+1        0      3   male  22
+2        1      1 female  38
+3        1      3 female  26
+4        1      1 female  35
+5        0      3   male  35
+6        0      1   male  54
