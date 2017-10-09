@@ -1,8 +1,8 @@
 # Exploratory-Data-Analysis
+## DataCamp ggplot2 tutotial
 
 
-
-Titanic dataset instructions from DataCamp
+## Titanic dataset instructions from DataCamp
 
 1 - Have a look at the str() of the titanic dataset, which has been loaded into your workspace. Looks like the data is pretty tidy!
 
@@ -25,7 +25,7 @@ Make sure that Sex is mapped onto color instead of fill to correctly color the s
 
 
 
-Dataset Overview
+## Dataset Overview
 
 
 str(titanic)
