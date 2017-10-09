@@ -1,6 +1,7 @@
 # Exploratory-Data-Analysis
 
 Titanic dataset instruction from DataCamp
+
 1 - Have a look at the str() of the titanic dataset, which has been loaded into your workspace. Looks like the data is pretty tidy!
 
 2 - Plot the distribution of sexes within the classes of the ship.
